@@ -1,0 +1,21 @@
+{
+  "name": "uca-cli",
+  "version": "0.0.8",
+  "description": "UCA CLI",
+  "main": "index.js",
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "deasync": "^0.1.9",
+    "inquirer": "^3.0.6",
+    "meow": "^3.7.0",
+    "moment": "^2.18.1",
+    "ora": "^1.2.0",
+    "prompt": "^1.0.0",
+    "request": "^2.81.0"
+  },
+  "bin": {
+    "uca": "cli.js"
+  }
+}
