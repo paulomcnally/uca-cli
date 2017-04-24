@@ -1,6 +1,6 @@
 {
   "name": "uca-cli",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "UCA CLI",
   "main": "index.js",
   "author": "Paulo McNally <paulomcnally@gmail.com>",
