@@ -22,19 +22,31 @@ switch (cli.input[0]) {
   case 'help':
     help.print();
   break;
+
   case 'login':
     auth.signIn();
   break;
+
   case 'add':
     auth.signUp();
   break;
+
+  case 'me':
+    uca.me();
+  break;
+
   case 'quiz':
     uca.quiz();
   break;
 
   case 'points':
-    uca.points();
+    if (cli.input[1] === 'group') {
+      uca.groupPoints();
+    } else {
+      uca.points();
+    }
   break;
+
   default:
     help.print();
 }
